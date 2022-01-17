@@ -1,0 +1,49 @@
+*{
+    margin-top: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+.box{
+    border: solid 2px black;
+    width: 670px;
+    height: 50vh;
+    margin: 25px auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box div{
+    background-color: cadetblue;
+    padding: 45px;
+    margin: 10px;
+    width: 100px;   
+
+}
+
+.a{
+    flex-grow: 2;  /* Aqui eu determinei o tamanho que a caixa vai ter, neste caso, dividi em 9 partes e essa caixa vai ocupar 2 partes */
+    align-self: flex-start;
+}
+
+.b{
+    flex-grow: 5; /* Aqui eu determinei o tamanho que a caixa vai ter, neste caso, dividi em 9 partes e essa caixa vai ocupar 5 partes */
+    align-self: flex-end;
+}
+
+.c{
+    flex-grow: 2; /* Aqui eu determinei o tamanho que a caixa vai ter, neste caso, dividi em 9 partes e essa caixa vai ocupar 2 partes */
+}
+

@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;    
+}
+
+.filho{ /* Se refere às caixas */
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+.explicacao{ /* Se refere às linhas de explicação acima de cada caixa */
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+.ex1{
+    background-color: burlywood;
+    width: 30%;
+    padding: 20px;
+    margin: 10px auto;
+}
+
+#container1{
+    width: 85%;
+    border: 2px solid black;
+    margin: 20px auto;
+    display: flex;
+}
+
+#container2{
+    width: 85%;
+    border: 2px solid black;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#container3{
+    width: 85%;
+    border: 2px solid black;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#container4{
+    width: 85%;
+    border: 2px solid black;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column-reverse;
+}
+

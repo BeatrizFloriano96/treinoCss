@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /* Essa propriedade determina que a largura e altura dos elementos incluam o PADDING  e o BORDER. */
+}
+
+.caixa1{
+    width: 75%;
+    border: 2px solid black;
+    margin: 20px auto; /* Com essa configuração, a margem de cima irá respeitar 20px e as margens laterais irão fazer o conteúdo centralizar na tela. */
+    display: flex; /* Os elementos irão ficar na mesma linha */
+}
+
+.item1{
+    padding: 15px;
+    background-color: azure;
+    margin: 10px;
+    width: 20%;
+    
+}
+
+.caixa2{
+    width: 85%;
+    border: 2px dotted black;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap; /* Isso permite que, caso o elemento não caiba no container, quebre a linha */
+
+}
+
+.item2{
+    padding: 15px;
+    background-color: burlywood;
+    margin: 10px auto;
+    width: 30%;
+    height: 300px;
+    text-align: justify;   
+}
+

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justfy-content</title>
+
+    <link rel="stylesheet" href="justfy-content.css">
+</head>
+<body>
+    <h1>Justfy-content</h1>
+
+    <p class="explicacao">
+        Com essa propriedade, alinhamos os itens ao longo do main axis. <br>
+        Se é horizontal, eles serão alinhados em função da linha. <br>
+        Se for horizontal, eles serão alinhados de acordo com a coluna.
+    </p>
+
+    <hr>
+
+    <p class="explicacao">
+        Justfy-content: flex-start <br>
+        Os itens ficam alinhados com o início do mais axis que definimos. <br>
+        Se não declaramos o justfy-content ao container, o valor padrão será flex-start.
+    </p>
+
+    <section id="caixa1">
+
+        <div class="ex1">
+            <p class="conteudo">A</p>
+        </div>
+
+        <div class="ex1">
+            <p class="conteudo">B</p>
+        </div>
+
+        <div class="ex1">
+            <p class="conteudo">C</p>
+        </div>
+
+    </section>
+
+    <p class="explicacao">
+        Justfy-content: flex-end <br>
+        Os itens ficam alinhados com o final do main axis que definimos
+    </p>
+
+    <section id="caixa2">
+
+        <div class="ex1">
+            <p class="conteudo">A</p>
+        </div>
+
+        <div class="ex1">
+            <p class="conteudo">B</p>
+        </div>
+
+        <div class="ex1">
+            <p class="conteudo">C</p>
+        </div>
+
+    </section>
+
+    <p class="explicacao">
+        Justfy-content: center <br>
+        Os itens ficam alinhados ao centro do mais axis
+    </p>
+
+    <section id="caixa3">
+
+        <div class="ex1">
+            <p class="conteudo">A</p>
+        </div>
+
+        <div class="ex1">
+            <p class="conteudo">B</p>
+        </div>
+
+        <div class="ex1">
+            <p class="conteudo">C</p>
+        </div>
+
+    </section>
+
+    <p class="explicacao">
+        Justfy-content: space-between <br>
+        Os itens se distribuem de maneira uniforme dentro do container.  <br>
+        O primeiro item será enviado ao início do main axis e o último item ao final. <br>
+        O espaço livre de dividirá igualmente para separar os itens.
+    </p>
+
+    <section id="caixa4">
+
+        <div class="ex1">
+            <p class="conteudo">A</p>
+        </div>
+
+        <div class="ex1">
+            <p class="conteudo">B</p>
+        </div>
+
+        <div class="ex1">
+            <p class="conteudo">C</p>
+        </div>
+
+    </section>
+
+    <p class="explicacao">
+        Justfy-content: space-around <br>
+        Os itens se distribuem de maneira uniforme dentro do container. <br>
+        O espaço livre será dividido igualmente entre todos os elementos. <br>
+        O primeiro item terá uma unidade de espaço entre a borda do container, e duas unidade de espaço entre o seguinte item, isso é, seu próprio espaço somado ao espaço do sucessor. O mesmo acontece com o ultimo item.
+
+    <section id="caixa5">
+
+        <div class="ex1">
+            <p class="conteudo">A</p>
+        </div>
+
+        <div class="ex1">
+            <p class="conteudo">B</p>
+        </div>
+
+        <div class="ex1">
+            <p class="conteudo">C</p>
+        </div>
+
+    </section>
+</body>
+</html>
